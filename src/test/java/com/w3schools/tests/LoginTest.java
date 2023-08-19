@@ -23,10 +23,12 @@ public class LoginTest extends SeWrappers{
 			String pageTitle="My learning | W3Schools";
 			String actualTitle=se.getTitle();
 			Assert.assertTrue(driver.getTitle().equals(pageTitle));
-			//Assert.assertEquals(actualTitle,pageTitle);
+			Assert.assertEquals(actualTitle,pageTitle);
+			Reports.reportStep("PASS", "Login with valid credentials passed");
 		}
 		catch(Exception ex)
 		{
+			Reports.reportStep("FAIL", "Login failed");
 			ex.printStackTrace();
 		}
 	}
