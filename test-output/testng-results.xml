@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-18T11:05:21 IST" name="Suite" finished-at="2023-08-18T11:05:23 IST" duration-ms="2379">
+  <suite started-at="2023-08-19T10:42:42 IST" name="Suite" finished-at="2023-08-19T10:43:05 IST" duration-ms="23311">
     <groups>
     </groups>
-    <test started-at="2023-08-18T11:05:21 IST" name="Test" finished-at="2023-08-18T11:05:23 IST" duration-ms="2379">
+    <test started-at="2023-08-19T10:42:42 IST" name="Test" finished-at="2023-08-19T10:43:05 IST" duration-ms="23311">
       <class name="com.w3schools.utils.Reports">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.w3schools.utils.Reports@cb0755b]" started-at="2023-08-18T11:05:20 IST" name="startReport" finished-at="2023-08-18T11:05:21 IST" duration-ms="338" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.w3schools.utils.Reports@4be29ed9]" started-at="2023-08-19T10:42:41 IST" name="startReport" finished-at="2023-08-19T10:42:42 IST" duration-ms="758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.w3schools.utils.Reports@cb0755b]" started-at="2023-08-18T11:05:23 IST" name="endReport" finished-at="2023-08-18T11:05:23 IST" duration-ms="296" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.w3schools.utils.Reports@4be29ed9]" started-at="2023-08-19T10:43:05 IST" name="endReport" finished-at="2023-08-19T10:43:06 IST" duration-ms="1150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.w3schools.utils.Reports -->
       <class name="com.w3schools.tests.LoginTest">
-        <test-method signature="loginWithValidCredentials()[pri:0, instance:com.w3schools.tests.LoginTest@28261e8e]" started-at="2023-08-18T11:05:21 IST" name="loginWithValidCredentials" finished-at="2023-08-18T11:05:23 IST" duration-ms="2339" status="PASS">
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:com.w3schools.tests.LoginTest@4a83a74a]" started-at="2023-08-19T10:42:42 IST" name="loginWithValidCredentials" finished-at="2023-08-19T10:43:05 IST" duration-ms="22956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCredentials -->
-        <test-method is-config="true" signature="closeAllBrowsers()[pri:0, instance:com.w3schools.tests.LoginTest@28261e8e]" started-at="2023-08-18T11:05:23 IST" name="closeAllBrowsers" finished-at="2023-08-18T11:05:23 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="closeAllBrowsers()[pri:0, instance:com.w3schools.tests.LoginTest@4a83a74a]" started-at="2023-08-19T10:43:05 IST" name="closeAllBrowsers" finished-at="2023-08-19T10:43:05 IST" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAllBrowsers -->

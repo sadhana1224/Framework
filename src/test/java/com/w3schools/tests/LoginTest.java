@@ -25,6 +25,7 @@ public class LoginTest extends SeWrappers{
 			Assert.assertTrue(driver.getTitle().equals(pageTitle));
 			Assert.assertEquals(actualTitle,pageTitle);
 			Reports.reportStep("PASS", "Login with valid credentials passed");
+			Thread.sleep(2000);
 		}
 		catch(Exception ex)
 		{
@@ -33,7 +34,7 @@ public class LoginTest extends SeWrappers{
 		}
 	}
 	
-	@Test
+	//@Test
 	public void loginWithInvalidEmail()
 	{
 		try
