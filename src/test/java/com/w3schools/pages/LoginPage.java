@@ -16,6 +16,8 @@ public class LoginPage extends SeWrappers {
 	@FindBy(xpath="//span[text()='Log in']")
 	WebElement login;
 	
+	
+	
 	//converting all the user actions in that specific page into user defined methods
 	
 	public void setEmail(String emailId)
@@ -32,7 +34,6 @@ public class LoginPage extends SeWrappers {
 	{
 		click(login);
 	}
-	
 	
 
 }

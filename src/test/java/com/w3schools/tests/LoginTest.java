@@ -19,13 +19,14 @@ public class LoginTest extends SeWrappers{
 		{
 			Reports.setTCDesc("Validating login functionality with valid credentials");
 			launchBrowser("https://profile.w3schools.com/");
-			w3.loginW3Schools("bv.nirmal@gmail.com","Testing@123");
+			w3.loginW3Schools("sadhu.lokii1924@gmail.com","Automation@19");
 			String pageTitle="My learning | W3Schools";
 			String actualTitle=se.getTitle();
 			Assert.assertTrue(driver.getTitle().equals(pageTitle));
 			Assert.assertEquals(actualTitle,pageTitle);
 			Reports.reportStep("PASS", "Login with valid credentials passed");
 			Thread.sleep(2000);
+			screenshot("login_valid");
 		}
 		catch(Exception ex)
 		{
@@ -53,5 +54,8 @@ public class LoginTest extends SeWrappers{
 			Reports.reportStep("FAIL", "Problem while login");
 		}
 	}
+	
+	
+	
 
 }

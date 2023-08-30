@@ -52,7 +52,7 @@ public class SeWrappers {
 	}
 	
 	//method to close all the browsers
-	@AfterMethod
+	//@AfterMethod
 	public void closeAllBrowsers()
 	{
 		try
@@ -159,6 +159,8 @@ public class SeWrappers {
 			ex.printStackTrace();
 		}
 	}
+	
+	
 	//explicit wait
 	public void waitForMe(WebElement ele, int timeout)
 	{
@@ -166,6 +168,7 @@ public class SeWrappers {
 		{
 			WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(timeout));
 			wait.until(ExpectedConditions.visibilityOf(ele));
+			
 			
 		}
 		catch(Exception ex)
@@ -616,12 +619,12 @@ public class SeWrappers {
 		}
 	}
 	//scrollintoview
-	public void scrollintoView(WebElement ele)
+	public void scrollintoView(WebElement editt)
 	{
 		try
 		{
 			JavascriptExecutor js=(JavascriptExecutor)driver;
-			js.executeScript("arguments[0].scrollIntoView(true);",ele);
+			js.executeScript("arguments[0].scrollIntoView(true);",editt);
 		}
 		catch(Exception ex)
 		{
@@ -684,7 +687,7 @@ public class SeWrappers {
 			ex.printStackTrace();
 		}
 	}
-	
+	//screenshots
 	public void screenshot(String screenshotName)
 	{
 		try
